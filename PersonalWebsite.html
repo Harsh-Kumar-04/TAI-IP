@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Kumar - Introduction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Light grey background */
+            overflow: hidden; /* Prevent scrolling */
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff; /* White background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            animation: fadeInUp 1s ease forwards;
+        }
+        .profile-img {
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333; /* Dark grey text */
+        }
+        p {
+            line-height: 1.6;
+            color: #666; /* Medium grey text */
+        }
+        .contact-details {
+            margin-top: 20px;
+        }
+        .contact-details a {
+            display: block;
+            margin-bottom: 10px;
+            color: #007bff; /* Blue link */
+            transition: color 0.3s ease;
+        }
+        .contact-details a:hover {
+            text-decoration: underline;
+            color: #0056b3; /* Darker blue on hover */
+        }
+        /* Animation keyframes */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        /* Inner box style */
+        .inner-box {
+            background-color: #f9f9f9; /* Light grey background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increased box shadow */
+            margin-top: 20px;
+            animation: fadeInUp 1s ease forwards;
+            transition: transform 0.3s ease; /* Smooth transition effect */
+        }
+        .inner-box:hover {
+            transform: scale(1.05); /* Scale up on hover */
+        }
+        .inner-box h2 {
+            color: #333; /* Dark grey text */
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .inner-box p {
+            color: #666; /* Medium grey text */
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="profile-img" src="mine pic.jpg" alt="Harsh Kumar">
+        <h1>Hello, I'm Harsh Kumar</h1>
+        <p>I am currently pursuing B.Tech in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning from MDU. I am passionate about coding and currently learning C, C++, Java, JavaScript, and C#.</p>
+        <div class="contact-details">
+            <p>You can reach me at:</p>
+            <a href="mailto:harshbarewal04@gmail.com">harshbarewal04@gmail.com</a>
+            <a href="https://www.linkedin.com/in/harsh-kumar-8233402a8" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/harsh_kumar.04" target="_blank">Instagram</a>
+        </div>
+        <p>In my free time, I enjoy singing and writing song lyrics.</p>
+        <!-- Inner box with additional content -->
+        <div class="inner-box">
+            <h2>More About Me</h2>
+            <p>I completed my 10th and 12th from Delhi. My goal is to join a big reputed MNC company where I can apply my skills and contribute to impactful projects.</p>
+            <p>I am passionate about exploring new technologies and solving challenging problems. I love to collaborate with others and share knowledge. My goal is to make a positive impact in the field of technology.</p>
+            <p>Feel free to connect with me!</p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for background effect
+        document.body.style.background = 'linear-gradient(45deg, #ff7e5f, #feb47b)'; // Gradient background
+    </script>
+</body>
+</html>
